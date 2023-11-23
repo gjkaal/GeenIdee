@@ -11,11 +11,15 @@ public class UnitTest1
     [TestMethod]
     public async Task LeesWeerkaartenQuickAndDirty()
     {
+        var now = DateTime.Now;
         var epoch = new DateTime(2023, 1, 1);
         for (int dag = 0; dag<=365; dag++)
         {
             var current = epoch.AddDays(dag);
-
+            if (current > now)
+            {
+                break;
+            }
             var url = string.Format(baseUrl, current.ToString("yyyyMMdd"));
             var fileName = "c:\\git\\weerdata\\Analyse_" + current.ToString("yyyyMMdd") + ".gif";
             Console.WriteLine("Downloading " + url + " to " + fileName);
