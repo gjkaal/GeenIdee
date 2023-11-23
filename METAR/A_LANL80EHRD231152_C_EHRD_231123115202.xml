@@ -1,0 +1,75 @@
+0000378401
+LANL80 EHRD 231152
+<?xml version="1.0" ?>
+<iwxxm:METAR automatedStation="true" gml:id="uuid.a32edcbb-3b48-4269-9636-23847fd29370" permissibleUsage="OPERATIONAL" reportStatus="NORMAL" translatedBulletinID="" translatedBulletinReceptionTime="2023-11-23T11:52:01Z" translationCentreDesignator="EHRD" translationCentreName="MetConsole" translationTime="2023-11-23T11:52:01Z" xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:iwxxm="http://icao.int/iwxxm/3.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://icao.int/iwxxm/3.0 http://schemas.wmo.int/iwxxm/3.0/iwxxm.xsd
+http://def.wmo.int/metce/2013 http://schemas.wmo.int/metce/1.2/metce.xsd">
+<!-- METAR EHRD 231155Z AUTO 25017G27KT 230V290 9999 SCT014 BKN017 BKN022 13/10 Q1019 NOSIG= -->
+<iwxxm:issueTime>
+<gml:TimeInstant gml:id="uuid.4d17fb2d-d894-4147-96da-a167fd37563c">
+<gml:timePosition>2023-11-23T11:55:00Z</gml:timePosition>
+</gml:TimeInstant>
+</iwxxm:issueTime>
+<iwxxm:aerodrome>
+<aixm:AirportHeliport gml:id="uuid.6216c73c-7cc4-4aae-9f14-82cd9409dfa9">
+<aixm:timeSlice>
+<aixm:AirportHeliportTimeSlice gml:id="uuid.ab0d61a1-a519-41d2-9488-3ba273955a22">
+<gml:validTime/>
+<aixm:interpretation>SNAPSHOT</aixm:interpretation>
+<aixm:designator>EHRD</aixm:designator>
+<aixm:name>ROTTERDAM THE HAGUE AIRPORT</aixm:name>
+<aixm:locationIndicatorICAO>EHRD</aixm:locationIndicatorICAO>
+</aixm:AirportHeliportTimeSlice>
+</aixm:timeSlice>
+</aixm:AirportHeliport>
+</iwxxm:aerodrome>
+<iwxxm:observationTime>
+<gml:TimeInstant gml:id="uuid.7ec47875-a2c8-4cfd-ac8e-573900e5cb53">
+<gml:timePosition>2023-11-23T11:55:00Z</gml:timePosition>
+</gml:TimeInstant>
+</iwxxm:observationTime>
+<iwxxm:observation>
+<iwxxm:MeteorologicalAerodromeObservation cloudAndVisibilityOK="false" gml:id="uuid.a6dd6a3f-d059-4424-bbee-f89af6efbee6">
+<iwxxm:airTemperature uom="Cel">13.0</iwxxm:airTemperature>
+<iwxxm:dewpointTemperature uom="Cel">10.0</iwxxm:dewpointTemperature>
+<iwxxm:qnh uom="hPa">1019.0</iwxxm:qnh>
+<iwxxm:surfaceWind>
+<iwxxm:AerodromeSurfaceWind variableWindDirection="false">
+<iwxxm:meanWindDirection uom="deg">250.0</iwxxm:meanWindDirection>
+<iwxxm:meanWindSpeed uom="[kn_i]">17.0</iwxxm:meanWindSpeed>
+<iwxxm:windGustSpeed uom="[kn_i]">27.0</iwxxm:windGustSpeed>
+<iwxxm:extremeClockwiseWindDirection uom="deg">230.0</iwxxm:extremeClockwiseWindDirection>
+<iwxxm:extremeCounterClockwiseWindDirection uom="deg">290.0</iwxxm:extremeCounterClockwiseWindDirection>
+</iwxxm:AerodromeSurfaceWind>
+</iwxxm:surfaceWind>
+<iwxxm:visibility>
+<iwxxm:AerodromeHorizontalVisibility>
+<iwxxm:prevailingVisibility uom="m">10000.0</iwxxm:prevailingVisibility>
+<iwxxm:prevailingVisibilityOperator>ABOVE</iwxxm:prevailingVisibilityOperator>
+</iwxxm:AerodromeHorizontalVisibility>
+</iwxxm:visibility>
+<iwxxm:cloud>
+<iwxxm:AerodromeCloud>
+<iwxxm:layer>
+<iwxxm:CloudLayer>
+<iwxxm:amount xlink:href="http://codes.wmo.int/49-2/CloudAmountReportedAtAerodrome/SCT"/>
+<iwxxm:base uom="[ft_i]">1400.0</iwxxm:base>
+</iwxxm:CloudLayer>
+</iwxxm:layer>
+<iwxxm:layer>
+<iwxxm:CloudLayer>
+<iwxxm:amount xlink:href="http://codes.wmo.int/49-2/CloudAmountReportedAtAerodrome/BKN"/>
+<iwxxm:base uom="[ft_i]">1700.0</iwxxm:base>
+</iwxxm:CloudLayer>
+</iwxxm:layer>
+<iwxxm:layer>
+<iwxxm:CloudLayer>
+<iwxxm:amount xlink:href="http://codes.wmo.int/49-2/CloudAmountReportedAtAerodrome/BKN"/>
+<iwxxm:base uom="[ft_i]">2200.0</iwxxm:base>
+</iwxxm:CloudLayer>
+</iwxxm:layer>
+</iwxxm:AerodromeCloud>
+</iwxxm:cloud>
+</iwxxm:MeteorologicalAerodromeObservation>
+</iwxxm:observation>
+<iwxxm:trendForecast nilReason="http://codes.wmo.int/common/nil/noSignificantChange" xsi:nil="true"/>
+</iwxxm:METAR>

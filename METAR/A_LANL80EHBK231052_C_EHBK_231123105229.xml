@@ -1,0 +1,70 @@
+0000425201
+LANL80 EHBK 231052
+<?xml version="1.0" ?>
+<iwxxm:METAR automatedStation="false" gml:id="uuid.fd26a483-7a52-42c2-8862-0842f5dbec1e" permissibleUsage="OPERATIONAL" status="CORRECTION" translatedBulletinID="" translatedBulletinReceptionTime="2023-11-23T10:52:29Z" translationCentreDesignator="EHBK" translationCentreName="MetConsole" translationTime="2023-11-23T10:52:29Z" xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:iwxxm="http://icao.int/iwxxm/2.1" xmlns:metce="http://def.wmo.int/metce/2013" xmlns:om="http://www.opengis.net/om/2.0" xmlns:sams="http://www.opengis.net/samplingSpatial/2.0" xmlns:sf="http://www.opengis.net/sampling/2.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://icao.int/iwxxm/2.1 http://schemas.wmo.int/iwxxm/2.1.1/iwxxm.xsd
+http://def.wmo.int/metce/2013 http://schemas.wmo.int/metce/1.2/metce.xsd">
+<!-- METAR COR EHBK 231055Z AUTO 24010KT 210V290 9999 SCT009 OVC010 10/08 Q1023 NOSIG= -->
+<iwxxm:observation>
+<om:OM_Observation gml:id="uuid.9b70cfdb-c06d-4fd7-8180-9281a57bb83f">
+<om:type xlink:href="http://codes.wmo.int/49-2/observation-type/IWXXM/2.1/MeteorologicalAerodromeObservation"/>
+<om:phenomenonTime>
+<gml:TimeInstant gml:id="uuid.cad6d3ec-1d01-492b-bfbc-472d9fbe7c67">
+<gml:timePosition>2023-11-23T10:55:00Z</gml:timePosition>
+</gml:TimeInstant>
+</om:phenomenonTime>
+<om:resultTime>
+<gml:TimeInstant gml:id="uuid.95ac9f43-c2af-4e85-8a37-8036f95cc1dc">
+<gml:timePosition>2023-11-23T10:55:00Z</gml:timePosition>
+</gml:TimeInstant>
+</om:resultTime>
+<om:procedure>
+<metce:Process gml:id="uuid.a4eda0ac-b5bd-4a16-a213-bd1c4c7a2fb4">
+<gml:description>WMO No. 49 Volume 2 Meteorological Service for International Air Navigation APPENDIX 3 TECHNICAL SPECIFICATIONS RELATED TO METEOROLOGICAL OBSERVATIONS AND REPORTS</gml:description>
+</metce:Process>
+</om:procedure>
+<om:observedProperty xlink:href="http://codes.wmo.int/49-2/observable-property/MeteorologicalAerodromeObservation"/>
+<om:featureOfInterest>
+<sams:SF_SpatialSamplingFeature gml:id="uuid.a2356d6d-44fd-4e99-9ca1-ad86bc164482">
+<sf:type xlink:href="http://www.opengis.net/def/samplingFeatureType/OGC-OM/2.0/SF_SamplingPoint"/>
+<sf:sampledFeature>
+<aixm:AirportHeliport gml:id="uuid.087cb522-a700-4160-8f1d-cf15844e9a79">
+<aixm:timeSlice>
+<aixm:AirportHeliportTimeSlice gml:id="uuid.30d3db72-c845-43e1-ab3f-57693920ac18">
+<gml:validTime/>
+<aixm:interpretation>SNAPSHOT</aixm:interpretation>
+<aixm:designator>EHBK</aixm:designator>
+<aixm:name>MAASTRICHT-AACHEN AIRPORT</aixm:name>
+<aixm:locationIndicatorICAO>EHBK</aixm:locationIndicatorICAO>
+</aixm:AirportHeliportTimeSlice>
+</aixm:timeSlice>
+</aixm:AirportHeliport>
+</sf:sampledFeature>
+<sams:shape/>
+</sams:SF_SpatialSamplingFeature>
+</om:featureOfInterest>
+<om:result>
+<iwxxm:MeteorologicalAerodromeObservationRecord cloudAndVisibilityOK="false" gml:id="uuid.a9579a8f-0c78-40ae-90a3-d4529672bd1b">
+<iwxxm:airTemperature uom="Cel">10.0</iwxxm:airTemperature>
+<iwxxm:dewpointTemperature uom="Cel">8.0</iwxxm:dewpointTemperature>
+<iwxxm:qnh uom="hPa">1023.0</iwxxm:qnh>
+<iwxxm:surfaceWind>
+<iwxxm:AerodromeSurfaceWind variableWindDirection="false">
+<iwxxm:meanWindDirection uom="deg">240.0</iwxxm:meanWindDirection>
+<iwxxm:meanWindSpeed uom="[kn_i]">10.0</iwxxm:meanWindSpeed>
+<iwxxm:extremeClockwiseWindDirection uom="deg">290.0</iwxxm:extremeClockwiseWindDirection>
+<iwxxm:extremeCounterClockwiseWindDirection uom="deg">210.0</iwxxm:extremeCounterClockwiseWindDirection>
+</iwxxm:AerodromeSurfaceWind>
+</iwxxm:surfaceWind>
+<iwxxm:visibility>
+<iwxxm:AerodromeHorizontalVisibility>
+<iwxxm:prevailingVisibility uom="m">10000.0</iwxxm:prevailingVisibility>
+<iwxxm:prevailingVisibilityOperator>ABOVE</iwxxm:prevailingVisibilityOperator>
+</iwxxm:AerodromeHorizontalVisibility>
+</iwxxm:visibility>
+<iwxxm:cloud nilReason="http://codes.wmo.int/common/nil/notDetectedByAutoSystem" xsi:nil="true"/>
+</iwxxm:MeteorologicalAerodromeObservationRecord>
+</om:result>
+</om:OM_Observation>
+</iwxxm:observation>
+<iwxxm:trendForecast nilReason="http://codes.wmo.int/common/nil/noSignificantChange" xsi:nil="true"/>
+</iwxxm:METAR>
