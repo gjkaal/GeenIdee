@@ -1,0 +1,37 @@
+Metadata:
+
+Automated Station: No
+Permissible Usage: Operational
+Report Status: Normal
+Translated Bulletin ID: Not available
+Bulletin Reception Time: November 23, 2023, at 10:52:54 (UTC)
+Translation Centre Designator: EHAM
+Translation Centre Name: MetConsole
+Translation Time: November 23, 2023, at 10:52:54 (UTC)
+XML Namespaces: Various namespaces for schema definitions
+Issue Time: November 23, 2023, at 10:55:00 (UTC)
+
+Aerodrome Information:
+
+Designator: EHAM
+Name: Amsterdam Airport Schiphol
+Location Indicator (ICAO): EHAM
+Observation Time: November 23, 2023, at 10:55:00 (UTC)
+
+Observation:
+
+Cloud and Visibility Status: Not OK
+Air Temperature: 14.0 degrees Celsius
+Dewpoint Temperature: 10.0 degrees Celsius
+QNH (Altimeter Setting): 1019.0 hectopascals (hPa)
+Surface Wind:
+Mean Wind Direction: 250.0 degrees
+Mean Wind Speed: 20.0 knots
+Wind Gust Speed: 31.0 knots
+Extreme Clockwise Wind Direction: 220.0 degrees
+Extreme Counter-Clockwise Wind Direction: 280.0 degrees
+Visibility: 10,000.0 meters above
+Cloud:
+Cloud Amount: Few (FEW)
+Cloud Base: 1700.0 feet above ground level
+Trend Forecast: No significant change expected
