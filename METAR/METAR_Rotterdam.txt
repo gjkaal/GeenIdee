@@ -1,0 +1,36 @@
+Metadata:
+
+Automated Station: Yes
+Permissible Usage: Operational
+Report Status: Normal
+Translated Bulletin ID: Not available
+Bulletin Reception Time: November 23, 2023, at 11:22:01 (UTC)
+Translation Centre Designator: EHRD
+Translation Centre Name: MetConsole
+Translation Time: November 23, 2023, at 11:22:01 (UTC)
+XML Namespaces: Various namespaces for schema definitions
+Issue Time: November 23, 2023, at 11:25:00 (UTC)
+Aerodrome Information:
+
+Designator: EHRD
+Name: Rotterdam The Hague Airport
+Location Indicator (ICAO): EHRD
+Observation Time: November 23, 2023, at 11:25:00 (UTC)
+Observation:
+
+Cloud and Visibility Status: Not OK
+Air Temperature: 13.0 degrees Celsius
+Dewpoint Temperature: 10.0 degrees Celsius
+QNH (Altimeter Setting): 1020.0 hectopascals (hPa)
+Surface Wind:
+Mean Wind Direction: 250.0 degrees
+Mean Wind Speed: 16.0 knots
+Wind Gust Speed: 28.0 knots
+Extreme Clockwise Wind Direction: 210.0 degrees
+Extreme Counter-Clockwise Wind Direction: 290.0 degrees
+Visibility: Above 10,000.0 meters
+Cloud:
+Cloud Amount: Overcast (OVC)
+Cloud Base: 1600.0 feet above ground level
+Trend Forecast: No significant change expected
+Please note that some values are rounded or presented as received in the original METAR. If you have any further questions or need additional details, feel free to ask!
