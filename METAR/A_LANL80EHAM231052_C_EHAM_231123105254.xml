@@ -1,0 +1,63 @@
+0000334701
+LANL80 EHAM 231052
+<?xml version="1.0" ?>
+<iwxxm:METAR automatedStation="false" gml:id="uuid.49cabd02-653e-4649-985c-6671fc5c135c" permissibleUsage="OPERATIONAL" reportStatus="NORMAL" translatedBulletinID="" translatedBulletinReceptionTime="2023-11-23T10:52:54Z" translationCentreDesignator="EHAM" translationCentreName="MetConsole" translationTime="2023-11-23T10:52:54Z" xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:iwxxm="http://icao.int/iwxxm/3.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://icao.int/iwxxm/3.0 http://schemas.wmo.int/iwxxm/3.0/iwxxm.xsd
+http://def.wmo.int/metce/2013 http://schemas.wmo.int/metce/1.2/metce.xsd">
+<!-- METAR EHAM 231055Z 25020G31KT 220V280 9999 FEW017 14/10 Q1019 NOSIG= -->
+<iwxxm:issueTime>
+<gml:TimeInstant gml:id="uuid.01f44107-ace6-4e22-8d98-cf3208a8bf01">
+<gml:timePosition>2023-11-23T10:55:00Z</gml:timePosition>
+</gml:TimeInstant>
+</iwxxm:issueTime>
+<iwxxm:aerodrome>
+<aixm:AirportHeliport gml:id="uuid.0c29b1f9-c5c0-47bf-83a7-80234a318331">
+<aixm:timeSlice>
+<aixm:AirportHeliportTimeSlice gml:id="uuid.d1496e07-743a-40a3-b846-1ac049b2fce9">
+<gml:validTime/>
+<aixm:interpretation>SNAPSHOT</aixm:interpretation>
+<aixm:designator>EHAM</aixm:designator>
+<aixm:name>AMSTERDAM AIRPORT SCHIPHOL</aixm:name>
+<aixm:locationIndicatorICAO>EHAM</aixm:locationIndicatorICAO>
+</aixm:AirportHeliportTimeSlice>
+</aixm:timeSlice>
+</aixm:AirportHeliport>
+</iwxxm:aerodrome>
+<iwxxm:observationTime>
+<gml:TimeInstant gml:id="uuid.9280597d-fe88-4fb0-967d-eda529445479">
+<gml:timePosition>2023-11-23T10:55:00Z</gml:timePosition>
+</gml:TimeInstant>
+</iwxxm:observationTime>
+<iwxxm:observation>
+<iwxxm:MeteorologicalAerodromeObservation cloudAndVisibilityOK="false" gml:id="uuid.586e9b28-0999-466a-a90e-2f18f19ce770">
+<iwxxm:airTemperature uom="Cel">14.0</iwxxm:airTemperature>
+<iwxxm:dewpointTemperature uom="Cel">10.0</iwxxm:dewpointTemperature>
+<iwxxm:qnh uom="hPa">1019.0</iwxxm:qnh>
+<iwxxm:surfaceWind>
+<iwxxm:AerodromeSurfaceWind variableWindDirection="false">
+<iwxxm:meanWindDirection uom="deg">250.0</iwxxm:meanWindDirection>
+<iwxxm:meanWindSpeed uom="[kn_i]">20.0</iwxxm:meanWindSpeed>
+<iwxxm:windGustSpeed uom="[kn_i]">31.0</iwxxm:windGustSpeed>
+<iwxxm:extremeClockwiseWindDirection uom="deg">220.0</iwxxm:extremeClockwiseWindDirection>
+<iwxxm:extremeCounterClockwiseWindDirection uom="deg">280.0</iwxxm:extremeCounterClockwiseWindDirection>
+</iwxxm:AerodromeSurfaceWind>
+</iwxxm:surfaceWind>
+<iwxxm:visibility>
+<iwxxm:AerodromeHorizontalVisibility>
+<iwxxm:prevailingVisibility uom="m">10000.0</iwxxm:prevailingVisibility>
+<iwxxm:prevailingVisibilityOperator>ABOVE</iwxxm:prevailingVisibilityOperator>
+</iwxxm:AerodromeHorizontalVisibility>
+</iwxxm:visibility>
+<iwxxm:cloud>
+<iwxxm:AerodromeCloud>
+<iwxxm:layer>
+<iwxxm:CloudLayer>
+<iwxxm:amount xlink:href="http://codes.wmo.int/49-2/CloudAmountReportedAtAerodrome/FEW"/>
+<iwxxm:base uom="[ft_i]">1700.0</iwxxm:base>
+</iwxxm:CloudLayer>
+</iwxxm:layer>
+</iwxxm:AerodromeCloud>
+</iwxxm:cloud>
+</iwxxm:MeteorologicalAerodromeObservation>
+</iwxxm:observation>
+<iwxxm:trendForecast nilReason="http://codes.wmo.int/common/nil/noSignificantChange" xsi:nil="true"/>
+</iwxxm:METAR>
