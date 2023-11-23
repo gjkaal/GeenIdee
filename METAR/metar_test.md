@@ -1,0 +1,84 @@
+- METAR:
+    - @automatedStation: "false"
+    - @gml:id: "uuid.49cabd02-653e-4649-985c-6671fc5c135c"
+    - @permissibleUsage: "OPERATIONAL"
+    - @reportStatus: "NORMAL"
+    - @translatedBulletinID: ""
+    - @translatedBulletinReceptionTime: "2023-11-23T10:52:54Z"
+    - @translationCentreDesignator: "EHAM"
+    - @translationCentreName: "MetConsole"
+    - @translationTime: "2023-11-23T10:52:54Z"
+    - @xmlns:aixm: "http://www.aixm.aero/schema/5.1.1"
+    - @xmlns:gml: "http://www.opengis.net/gml/3.2"
+    - @xmlns:iwxxm: "http://icao.int/iwxxm/3.0"
+    - @xmlns:xlink: "http://www.w3.org/1999/xlink"
+    - @xmlns:xsi: "http://www.w3.org/2001/XMLSchema-instance"
+    - @xsi:schemaLocation: "http://icao.int/iwxxm/3.0 http://schemas.wmo.int/iwxxm/3.0/iwxxm.xsd\nhttp://def.wmo.int/metce/2013 http://schemas.wmo.int/metce/1.2/metce.xsd"
+    - issueTime:
+        - TimeInstant:
+            - @gml:id: "uuid.01f44107-ace6-4e22-8d98-cf3208a8bf01"
+            - timePosition: "2023-11-23T10:55:00Z"
+    - aerodrome:
+        - AirportHeliport:
+            - @gml:id: "uuid.0c29b1f9-c5c0-47bf-83a7-80234a318331"
+            - timeSlice:
+                - AirportHeliportTimeSlice:
+                    - @gml:id: "uuid.d1496e07-743a-40a3-b846-1ac049b2fce9"
+                    - validTime: {}
+                    - interpretation: "SNAPSHOT"
+                    - designator: "EHAM"
+                    - name: "AMSTERDAM AIRPORT SCHIPHOL"
+                    - locationIndicatorICAO: "EHAM"
+    - observationTime:
+        - TimeInstant:
+            - @gml:id: "uuid.9280597d-fe88-4fb0-967d-eda529445479"
+            - timePosition: "2023-11-23T10:55:00Z"
+    - observation:
+        - MeteorologicalAerodromeObservation:
+            - @cloudAndVisibilityOK: "false"
+            - @gml:id: "uuid.586e9b28-0999-466a-a90e-2f18f19ce770"
+            - airTemperature:
+                - @uom: "Cel"
+                - "#text": "14.0"
+            - dewpointTemperature:
+                - @uom: "Cel"
+                - "#text": "10.0"
+            - qnh:
+                - @uom: "hPa"
+                - "#text": "1019.0"
+            - surfaceWind:
+                - AerodromeSurfaceWind:
+                    - @variableWindDirection: "false"
+                    - meanWindDirection:
+                        - @uom: "deg"
+                        - "#text": "250.0"
+                    - meanWindSpeed:
+                        - @uom: "[kn_i]"
+                        - "#text": "20.0"
+                    - windGustSpeed:
+                        - @uom: "[kn_i]"
+                        - "#text": "31.0"
+                    - extremeClockwiseWindDirection:
+                        - @uom: "deg"
+                        - "#text": "220.0"
+                    - extremeCounterClockwiseWindDirection:
+                        - @uom: "deg"
+                        - "#text": "280.0"
+            - visibility:
+                - AerodromeHorizontalVisibility:
+                    - prevailingVisibility:
+                        - @uom: "m"
+                        - "#text": "10000.0"
+                    - prevailingVisibilityOperator: "ABOVE"
+            - cloud:
+                - AerodromeCloud:
+                    - layer:
+                        - CloudLayer:
+                            - amount:
+                                - @xlink:href: "http://codes.wmo.int/49-2/CloudAmountReportedAtAerodrome/FEW"
+                            - base:
+                                - @uom: "[ft_i]"
+                                - "#text": "1700.0"
+    - trendForecast:
+        - @nilReason: "http://codes.wmo.int/common/nil/noSignificantChange"
+        - @xsi:nil: "true"
